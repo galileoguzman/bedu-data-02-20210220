@@ -36,6 +36,3 @@ def download_file(url_file):
     with open(filename, 'wb') as image:
         image.write(response_content)
         return image
-
-
-download_file('https://avatars.githubusercontent.com/u/2016072?v=4')
